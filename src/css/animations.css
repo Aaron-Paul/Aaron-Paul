@@ -172,6 +172,16 @@ header.is-visible {
     to {opacity: 1}
   }
 
+html{
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    height: 100%;
+    overflow: auto;
+    overscroll-behavior: none;
+}
+
 
 
 * {cursor: url(https://ani.cursors-4u.net/cursors/cur-12/cur1103.ani), url(https://ani.cursors-4u.net/cursors/cur-12/cur1103.png), auto !important;} 
