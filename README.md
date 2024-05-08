@@ -1,4 +1,4 @@
-### Aaron's Page 
+# Aaron's Page 
 Website Link : https://aaronpaul.online/   [note: works best on firefox browser (animated favicon :)]  \
 LinkedIn Link : https://www.linkedin.com/in/34-aaron-paul/
 
