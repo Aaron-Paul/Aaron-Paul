@@ -172,7 +172,7 @@ header.is-visible {
     to {opacity: 1}
   }
 
-html{
+/* html{
     height: 100%;
     overflow: hidden;
 }
@@ -180,7 +180,7 @@ body{
     height: 100%;
     overflow: auto;
     overscroll-behavior: none;
-}
+} */
 
 
 
