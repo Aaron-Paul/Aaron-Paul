@@ -45,6 +45,23 @@
     }
 }
 
+@media only screen and (max-width: 900px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .experience-role-header {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .experience-dates {
+        font-size: 1.4rem;
+    }
+}
+
 @media only screen and (max-width: 450px) {
     h2 {
         font-size: 3.7em;
@@ -52,5 +69,13 @@
 
     .contact-form {
         grid-template-columns: 1fr;
+    }
+
+    .experience-company {
+        padding-left: 18px;
+    }
+
+    .education-item {
+        padding-left: 16px;
     }
 }

@@ -222,3 +222,193 @@ footer {
 .dark-bg a:hover {
     color: var(--black);
 }
+
+/* Skill pills — text row under the icon grid */
+.skill-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 30px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skill-pills li {
+    background: transparent;
+    border: 1.5px solid var(--white);
+    border-radius: 999px;
+    color: var(--white);
+    font-size: 1.4rem;
+    padding: 6px 16px;
+}
+
+/* Experience */
+#experience .experience-intro {
+    text-align: center;
+}
+
+.experience-list {
+    display: grid;
+    grid-gap: 40px;
+    margin-top: 40px;
+}
+
+.experience-company {
+    border-left: 3px solid var(--lighter-black);
+    padding: 8px 0 8px 28px;
+}
+
+.experience-company-name {
+    font-size: 2.4rem;
+    margin: 0 0 16px;
+    text-align: left;
+}
+
+.experience-role {
+    margin-bottom: 20px;
+}
+
+.experience-role:last-child {
+    margin-bottom: 0;
+}
+
+.experience-role-header {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.experience-role-header h4 {
+    color: var(--lighter-black);
+    font-size: 1.9rem;
+    margin: 0;
+}
+
+.experience-dates {
+    color: var(--grey);
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.experience-role p {
+    margin: 0;
+}
+
+/* Education */
+#education .education-intro {
+    text-align: center;
+}
+
+.education-list {
+    display: grid;
+    grid-gap: 28px;
+    margin-top: 40px;
+}
+
+.education-item {
+    border-left: 3px solid var(--white);
+    padding: 6px 0 6px 24px;
+}
+
+.education-item h3 {
+    font-size: 2rem;
+    margin: 0 0 4px;
+    text-align: left;
+}
+
+.education-institution {
+    font-size: 1.7rem;
+    margin: 0 0 2px;
+}
+
+.education-dates {
+    color: #b8c4c9;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 0;
+}
+
+/* Projects grid */
+.projects-grid {
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+}
+
+.project-card {
+    background: var(--white);
+    border: 2px solid var(--lighter-black);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    box-shadow: 0 6px 18px rgba(25, 41, 46, 0.15);
+    transform: translateY(-4px);
+}
+
+.project-card-title {
+    color: var(--lighter-black);
+    font-size: 2rem;
+    margin: 0 0 10px;
+    text-align: left;
+}
+
+.project-card-desc {
+    color: var(--black);
+    flex-grow: 1;
+    font-size: 1.6rem;
+    line-height: 1.45;
+    margin: 0 0 16px;
+}
+
+.project-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+    margin: 0 0 16px;
+    padding: 0;
+}
+
+.project-card-tags li {
+    background: var(--lighter-black);
+    border-radius: 999px;
+    color: var(--white);
+    font-size: 1.2rem;
+    padding: 3px 10px;
+}
+
+.project-card-meta {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-card-stars {
+    color: var(--grey);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.project-card-link {
+    box-shadow: inset 0 -0.5em var(--dark-red);
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.4s cubic-bezier(0, 1, 0.3, 1);
+}
+
+.project-card-link:hover {
+    box-shadow: inset 0 -1.5em var(--red);
+    color: var(--white);
+}
